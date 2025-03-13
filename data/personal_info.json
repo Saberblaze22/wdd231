@@ -1,0 +1,13 @@
+{
+    "family_name": "Winters",
+    "move_in_date": "2015-03-18",
+    "number_of_people": 1,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "dylan winters",
+            "gender": "male",
+            "birthdate": "1999-04-03"
+        }
+    ] 
+}
