@@ -7,6 +7,25 @@ body {
     margin: 0;
 }
 
+fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+label {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+textarea {
+    width: 100%;
+}
+
+input {
+    margin: 5px;
+}
+
 header{
     font-family: "Newsreader", serif;
     display: grid;
@@ -141,6 +160,32 @@ figure {
     justify-items: center;
 }
 
+.joingrid {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.membership section button {
+    margin: 10px;
+}
+
+
 .company p{
     border-style: none;
     margin: 1px;
@@ -204,6 +249,16 @@ figure {
     grid-template-rows: 1fr 9fr;
     margin: 10px;
     border: 2px solid black;
+}
+
+.membercard {
+    width: 90%;
+    margin: 10px 0;
+    border-width: .15rem;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    justify-items: center;
 }
 
 .card h1, .card h2, .card h3{
@@ -348,3 +403,26 @@ li.active a {
     width: 100%;
     height: auto;
 }  
+
+.bronze {
+    background-color: darkgoldenrod;
+}
+
+.bronze h3{
+    color: white;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.thanks {
+    margin: 1rem;
+    border-width: 5px;
+    border-style: outset;
+    max-height: none;
+}
