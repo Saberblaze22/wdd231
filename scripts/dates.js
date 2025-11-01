@@ -1,5 +1,5 @@
 const year = document.querySelector("#year");
-const lastmodified=document.querySelector('#lastmodified');
+const lastmodified=document.querySelector('#lastModified');
 const today = new Date();
 
 year.innerHTML = today.getFullYear();
