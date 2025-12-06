@@ -8,6 +8,54 @@ main{
     background-color: var(--backgroundcolor);
 }
 
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: white;
+}
+
+#menu::before{
+    content: "≡";
+}
+
+.navigation{
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation li a{
+    display: block;
+    padding: 0.5rem 0;
+    width: 100%;
+    color: var(--header-font-color);
+}
+
+.navigation a:hover {
+    text-decoration: underline double;
+    color: var(--header-font-color);
+}
+
+.show li{
+    display: block;
+}
+
+.navigation.show{
+    list-style: initial;
+}
+
+#menu.show::before{
+    content: "X";
+}
+
 h1, h2, h3{
     background-color: var(--backgroundcolor);
     color: var(--subcolor);
