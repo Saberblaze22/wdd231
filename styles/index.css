@@ -89,6 +89,14 @@ nav a:hover{
     color: var(--subcolor);
     background-color: var(--backgroundcolor);
 }
+.navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+   
 
 img{
     max-width: 100%;
