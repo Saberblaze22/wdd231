@@ -96,7 +96,14 @@ nav a:hover{
     align-items: center;
     justify-content: space-around;
 }
-   
+
+.navigation li{
+    display: block;
+}
+
+#menu{
+    display:none;
+}
 
 img{
     max-width: 100%;
