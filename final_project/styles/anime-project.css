@@ -70,7 +70,7 @@ a{
 }
 
 nav a:hover{
-    margin: 20 10%;
+    margin: 20px 10%;
     width: 20px;
     color: var(--subcolor);
     background-color: var(--backgroundcolor);
