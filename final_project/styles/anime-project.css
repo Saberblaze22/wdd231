@@ -83,7 +83,7 @@ img{
 
 video{
     max-width: 100%;
-    position: relative;
+    justify-self: center;
 }
 
 .hero{
