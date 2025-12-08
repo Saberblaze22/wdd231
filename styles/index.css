@@ -98,7 +98,7 @@ nav a:hover{
 }
 
 .navigation li{
-    display: block;
+    display: none;
 }
 
 #menu{
