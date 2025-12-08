@@ -81,6 +81,11 @@ img{
     position: relative;
 }
 
+video{
+    max-width: 100%;
+    position: relative;
+}
+
 .hero{
     display: flex;
     justify-content: center;
